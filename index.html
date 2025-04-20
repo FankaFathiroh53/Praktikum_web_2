@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAPORAN TEORI PEMOGRAMAN WEB</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            transition: background-color 0.5s, color 0.5s;
+        }
+        .rapi {
+            background-color: #1e1375;
+            color: #0e0d0d;
+        }
+        .berantakan {
+            background-color: #40b3da;
+            color: #f269bd;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #f8f4f4;
+        }
+        h3 {
+            cursor: pointer;
+            color: rgb(91, 84, 84);
+            text-decoration: underline;
+        }
+        .isi {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body class="rapi">
+    
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">LAPORAN TEORI</h1>
+        <h2 class="text-center mb-5">FANKA FATHIROH RATNA NUR ARIFAH KAMAL | 202332053</h2>
+
+        
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-8 bg-light p-4 rounded shadow">
+                <h3 onclick="toggleVisibility('soal1')" class="text-primary">Soal 1: Mengapa menggunakan CSS dan JavaScript dalam pemrograman web?</h3>
+                <div id="soal1" class="isi">
+                    <p>Penggunaan CSS (Cassading Style Sheets) dalam pemograman web untuk mendesain tampilan halaman website berupa tampilan visualnya (warna, font, layout, dan space) agar terlihat menarik dan responsif yang dapat menyesuaikan desain sesuai ukuran layar perangkat pengguna (desktop, tablet, atau smartphone). Penggunaan JavaScript merupakan suatu bahasa pemograman yang digunakan untuk menambahkan halaman website agar interaktivitas (munculnya tombol, tampil animasi dan pembuatan formulir) dan menjaga pola dinamis halaman untuk menambah, menghapus, dan mengubah konten halaman tanpa perlu refresh laman web.</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-8 bg-light p-4 rounded shadow">
+                <h3 onclick="toggleVisibility('soal2')" class="text-primary">Soal 2: Bagaimana CSS dan JavaScript dapat diintegrasikan dalam pemrograman web?</h3>
+                <div id="soal2" class="isi">
+                    <p>Pengintegrasian antara CSS dan JavaScript akan menghasilkan website yang menarik secara visual dan interaktif. Dalam penggunaannya JavaScript dapat langsung digunakan dalam CSS untuk mengatur warna halaman, mengontrol tampilan agar dapat berinteraksi dengan pengguna website. Selain itu penulisan CSS dalam JavaScript dapat menjadikan website yang dinamis, responsif dan realtime.</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-8 bg-light p-4 rounded shadow">
+                <h3 onclick="toggleVisibility('soal3')" class="text-primary">Soal 3: Jelaskan apa saja keuntungan menggunakan JavaScipt dan CSS?</h3>
+                <div id="soal3" class="isi">
+                    <p>Keuntungan CSS adalah menampilkan kesan visual laman web dan desain yang responsif. Tampilan website yang dibuat juga dapat menyesuaikan berbagai ukuran layar. CSS juga mendukung penggunaan class dan IDE sehingga mengurangi duplikasi kode dan mempercepat proses pengembangan website. Pada JavaScript juga memberikan keuntungan dalam membangun sebuah website. Website yang dibuat terkesan realtime. Dalam JavaScript memungkinkan manipulasi elemen HTML secara langsung melalui DOM(Document Object Model).</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-8 bg-light p-4 rounded shadow">
+                <h3 onclick="toggleVisibility('soal4')" class="text-primary">Soal 4: Jelaskan apa saja keuntungan menggunakan Bootstrap?</h3>
+                <div id="soal4" class="isi">
+                    <p>Keuntungan utama dalam menggunakan Bootstrap adalah penggunaan sistem grid fleksibel sehingga pengembang mudah dalam membuat layout secara responsif. Bootstrap juga banyak menyediakan komponen yang siap dipakai tanpa desain dahulu diawal, sehingga menghemat waktu untuk menulis kode CSS, dan juga penggunaan bootstrap menyediakan desain default sehingga layar yang ditampilkan menyesuaikan pada kebutuhan. Bootstrap memungkinkan penggunaan kode CSS untuk mengubah warna tema, font, dan spacing.</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-8 bg-light p-4 rounded shadow">
+                <h3 onclick="toggleVisibility('soal5')" class="text-primary">Soal 5: Berikan salah satu contoh penggunaan Bootstrap lalu jelaskan apa fungsinya serta berikan screenshot hasil running di web-nya!</h3>
+                <div id="soal5" class="isi">
+                    <p>Bootstrap digunakan untuk membuat tampilan lebih responsif, rapi, dan nyaman untuk dilihat. Pada pembuatan bootstrap ini langkah pertama yang akan saya gunakan adalah menggunakan perintah (link) yang digunakan untuk memuat file CSS bootstrap, (script) untuk memuat file JavaScript bootstrap. Untuk penggunaan kelas pada bootstrap saya gunakan (container) untuk membuat sebuah blok kolom pada jawaban serta soal, (row) membuat garis yang sesuai pada kolom yang terbuat, (col -md-8) membuat kolom dengan lebar 8 pada layar medium, (bg-light,p-4,rounded,shadow) digunakan untuk menambah gaya modern , (text-center) digunakan untuk mengatur teks agar rata tengah, (btn btn-primary) membuat tombol alih layar dengan bootstrap.</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <button onclick="toggleTheme()" class="btn btn-primary">Ganti Tampilan</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+    <script>
+        function toggleVisibility(id) {
+            const isi = document.getElementById(id);
+            const isVisible = isi.style.display !== 'none';
+            const confirmation = confirm("Sembunyikan Jawaban ?");
+            if (confirmation) {
+                isi.style.display = isVisible ? 'none' : 'block';
+            }
+        }
+
+        function toggleTheme() {
+            const body = document.body;
+            if (body.classList.contains('rapi')) {
+                body.classList.remove('rapi');
+                body.classList.add('berantakan');
+            } else {
+                body.classList.remove('berantakan');
+                body.classList.add('rapi');
+            }
+        }
+    </script>
+</body>
+</html>
